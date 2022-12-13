@@ -390,7 +390,6 @@ body{
 
 
 .title{
-  /* padding-top: 50px; */
   height: 100vh;
   top: 20vh;
   left: 15px;
@@ -399,11 +398,6 @@ body{
   font-family: 'Josefin Sans', sans-serif;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* text-align: center;   */
-  /* position: absolute; */
-  /* bottom: 0px; */
 }
 
 .title .title-logo-depan{
@@ -1461,19 +1455,19 @@ input[type="radio"] {
   text-align: center;
   background-color: transparent;
   width: 414px;
-  height: 140px;
+  height: 80px;
   background-color: transparent;
 }
 
 .footer p{
   color: #263f22;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .footer a{
   color: #263f22;
   text-decoration: none;
-  margin-bottom: 28px;
+  margin-bottom: -2px;
 }
 
 @media(max-width: 413px){
@@ -1494,19 +1488,19 @@ input[type="radio"] {
   }
 
   .title{
-    left: 4.5vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;  
     position: absolute;
-    /* bottom: 120em; */
+  }
+
+  .title .title-logo-depan{
+    width: 88vw;
+    top: 0;
   }
 
   .title-sub{
     position: absolute;
-    top: 280px;
+    top: 300px;
     left: 20px;
   }
 
@@ -1514,21 +1508,6 @@ input[type="radio"] {
     width: 45vw;
     height: auto;
     margin-top: 15px;
-  }
-
-  .title a{
-    position: relative;
-    padding: 3px 25px;
-    display: inline-block;
-    margin-top: 10px;
-    text-decoration: none;
-    /* font-weight: lighter; */
-    font-size: 15px;
-    border-radius: 20px;
-  }
-
-  title a:hover{
-    background: rgb(238, 238, 238);
   }
 
   .container-top{
@@ -1560,6 +1539,10 @@ input[type="radio"] {
   }
 
   .couple-name{
+    width: 100vw;
+  }
+
+  .couple-name .pengantin{
     width: 100vw;
   }
 
@@ -1597,7 +1580,6 @@ input[type="radio"] {
   }
 
   .time{
-    margin-bottom: 0px;
     font-size: 40px;
   }
 
@@ -1615,6 +1597,12 @@ input[type="radio"] {
   
   .date-time{
     width: 100vw;
+    margin-top: -70px;
+  }
+
+  .date-time1{
+    width: 100vw;
+    margin-top: 30px;
   }
 
   .date-time img{
@@ -1629,8 +1617,16 @@ input[type="radio"] {
     width: 340px;
   }
 
+  .rsvp .rsvp-title{
+    width: 100vw;
+  }
+
   .amplop{
     width: 100vw;
+  }
+
+  .amplop-text{
+    padding: 0 20px;
   }
 
   .content-closing{
@@ -1700,14 +1696,7 @@ input[type="radio"] {
   }
 
   .footer{
-      padding: 35px 0 15px 0;
+    width: 100vw;
   }
 
-  .footer p{
-    padding-bottom: 103px;
-  }
-
-  .footer a{
-    padding-bottom: 100px;
-  }
 } 
