@@ -864,10 +864,11 @@ img{
 .rsvp .rsvp-title{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 414px;
   text-align: center;
+  
 }
 
 .rsvp .rsvp-title h2{
@@ -1104,13 +1105,13 @@ input[type="radio"] {
 .ornamen-closing{
   position: relative;
   width: 414px;
+  z-index: 0;
 }
 
 .ornamen-closing img{
   position: absolute;
-  top: -350px;
+  top: -20px;
   width: 414px;
-  z-index: 0;
 }
 
 .content-closing{
