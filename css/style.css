@@ -408,7 +408,7 @@ body{
 
 .title-sub{
   position: absolute;
-  top: 280px;
+  bottom: 35vh;
   left: 20px;
 }
 
