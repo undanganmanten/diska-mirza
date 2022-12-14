@@ -769,7 +769,7 @@ img{
 
 .count-title{
   font-family: 'neutron';
-  font-size: 25px ;
+  font-size: 27px ;
   font-weight: bold;
   color: #263f22;
   letter-spacing: 0px;
@@ -988,7 +988,7 @@ img{
 
 .rsvp .rsvp-title h2{
   font-family: 'neutron';
-  font-size: 30px;
+  font-size: 27px;
   margin: 20px;
   letter-spacing: 5px;
   color: #263f22;
@@ -1133,7 +1133,7 @@ input[type="radio"] {
 
 .amplop-title{
   font-family: 'neutron';
-  font-size: 30px ;
+  font-size: 27px ;
   font-weight: bold;
   color: #263f22;
   letter-spacing: 3px;
@@ -1456,7 +1456,8 @@ input[type="radio"] {
   font-family: 'moontime';
   color: #263f22;
   font-size: 65px !important;
-  font-weight: bold;
+  font-weight: 500;
+  text-shadow: #263f22 0.5px 1px;
   margin-top: 20px;
 }
 
