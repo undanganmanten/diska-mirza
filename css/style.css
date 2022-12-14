@@ -1,5 +1,10 @@
 /* nama */
 @font-face{
+  font-family: 'better';
+  src: url(../asset/font/Better\ Saturday.otf);
+}
+
+@font-face{
   font-family: 'moontime';
   src: url(../asset/font/FontsFree-Net-MoonTime-Regular-1.ttf);
 }
@@ -395,7 +400,8 @@ body{
   left: 15px;
   position: absolute;
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
   display: flex;
   flex-direction: column;
 }
@@ -428,6 +434,7 @@ body{
   color: #263f22;
   margin: 5px;
   text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
 }
 
 
@@ -500,8 +507,9 @@ img{
 
 .cover-top{
   position: absolute;
-  top: -20px;
+  /* top: -20px; */
   height: 100vh;
+  /* background-color: #8cb087; */
 }
 
 .cover-top h3,.cover-top h4{
@@ -513,6 +521,7 @@ img{
   right: 0;
   text-align: center;
   bottom: 10vh;
+  font-family: 'Playfair Display', serif;
 }
 
 .cover-top h4{
@@ -521,11 +530,12 @@ img{
 
 .cover-top h3{
   font-weight: lighter;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .cover-top img{
   width: 414px;
+  margin-top: -70px;
 }
 
 .arrum-section{
@@ -558,7 +568,7 @@ img{
 .content-isra p{
   color: #263f22;
   font-family: "neutron";
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
 }
 
@@ -596,18 +606,69 @@ img{
   align-items: center;
 }
 
+.couple-name .pengantin p,.couple-name .pengantin .nama-ortu,.couple-name .pengantin a{
+  font-family: 'Playfair Display', serif !important;
+  font-size: 15px;
+  color: #263f22;
+}
+
+.couple-name .pengantin .nama-pengantin{
+  font-family: "better";
+  font-size: 50px;
+  font-weight: 400;
+  color: #263f22;
+  text-shadow: #263f22 0.3px 1px;
+}
+
+.couple-name .pengantin .and{
+  font-family: "moontime";
+  font-size: 80px;
+  font-weight: 500;
+  color: #263f22;
+  text-shadow: #263f22 0.3px 1px;
+  /* background-color: #8cb087; */
+  padding-top: 20px;
+  line-height: 40px;
+}
+
+.couple-name .pengantin .nama-lengkap{
+  font-family: 'christmas';
+  font-size: 25px;
+  color: #263f22;
+}
+
+.couple-name .pengantin a{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.couple-name .pengantin a p{
+  padding-top: 5px;
+  color: #AB8742;
+}
+
+.couple-name .pengantin a img{
+  width: 20px;
+  padding-right: 5px;
+  padding-top: 3px; 
+}
+
+
+
+
+
+
+
+
+
+
 .couple-name .pengantin img{
   width: 250px;
 }
 
-.couple-name .pengantin a{
-  padding: 5px;
-  margin-bottom: 15px;
-}
 
-.couple-name .pengantin a img{
-  width: 100px;  
-}
 
 .the-date{
   margin-top: -220px;
@@ -692,9 +753,7 @@ img{
 
 #counting img{
   width: 390px;
-  background-color: #ff1414;
 }
-
 
 .count-down{
   display: flex;
@@ -705,7 +764,7 @@ img{
   width: 414px;
   height: 30vh;
   position: absolute;
-  top: 0;
+  top: 50px;
 }
 
 .count-title{
@@ -755,7 +814,8 @@ img{
 
 .font-smaller{
   font-size: 13px;
-  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Playfair Display', serif;
   color: #263f22;
 }
 
@@ -778,6 +838,22 @@ img{
   display: none;
 }
 
+.tanggal-acara{
+  width: 414px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8cb087;
+}
+
+.date-time p,.tanggal-acara p{
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  color: #263f22;
+}
+
+
 .date-time{
   margin-top: -10px;
 }
@@ -789,8 +865,47 @@ img{
 .date-time, .date-time1{
   width: 414px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.date-time p{
+  text-align: center;
+  padding: 5px 30px;
+}
+
+.date-time .tanggal-akad-resepsi{
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  color: #263f22;
+}
+
+.date-time .bulan-jam{
+  display: block;
+  padding: 15px 0px 20px 0px;
+}
+
+.date-time .bulan-jam span{
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  color: #263f22;
+  padding: 8px 20px;
+}
+
+.date-time .bulan-jam .kiri,.date-time .bulan-jam .kanan{
+  border: 1.5px #AB8742 solid;
+}
+
+.date-time .bulan-jam .kiri{
+  border-left: 0px;
+  margin-right: -2px;
+}
+
+.date-time .bulan-jam .kanan{
+  border-right: 0px;
+  margin: 0px;
+  margin-left: -2px;
 }
 
 .date-time img,.date-time1 img{
@@ -1283,7 +1398,8 @@ input[type="radio"] {
 .box p{
   color: #263f22;
   text-align: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: 'Playfair Display', serif;
   padding: 0 20px 10px 20px;
   font-size: 15px;
 }
@@ -1325,7 +1441,8 @@ input[type="radio"] {
 .thankyou h2{
   margin-top: 50px;
   font-size: 20px;
-  font-family: 'Mitr', sans-serif;
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'Mitr', sans-serif; */
   color: #263f22;
 }
 
@@ -1353,7 +1470,8 @@ input[type="radio"] {
   background: transparent;
   border: 1px solid #263f22;
   color: #263f22;
-  font-family: 'Josefin Sans',sans-serif;
+  /* font-family: 'Josefin Sans',sans-serif; */
+  font-family: 'Playfair Display', serif;
 }
 
 #name::-webkit-input-placeholder,
@@ -1387,7 +1505,8 @@ input[type="radio"] {
   cursor: pointer;
   transition: .3s;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: 'Playfair Display', serif;
 }
 
 #input_button:hover{
@@ -1407,6 +1526,7 @@ input[type="radio"] {
   overflow-x: hidden;
   background: rgba(255, 255, 255, 0.1);
   /* padding-right: 10px; */
+  font-family: 'Playfair Display', serif;
 }
 
 .task_container{
@@ -1427,7 +1547,8 @@ input[type="radio"] {
 }
 
 #task_title{
-  font-family:monospace;
+  /* font-family:monospace; */
+  font-family: 'Playfair Display', serif;
   font-size:15px;
   width:100%;
   text-align: left;
@@ -1437,12 +1558,14 @@ input[type="radio"] {
 
 #task_title p{
   padding-right: 10px;
+  /* font-family: 'Playfair Display', serif; */
 }
 
 #task_date{
   text-align: left;
   padding: 0;
-  font-family:monospace;
+  /* font-family:monospace; */
+  font-family: 'Playfair Display', serif;
   font-size:15px;
   font-weight: bold;
   padding-top: 5px;
@@ -1463,9 +1586,11 @@ input[type="radio"] {
 .footer p{
   color: #263f22;
   /* padding-bottom: 30px; */
+  font-family: 'Playfair Display', serif;
 }
 
 .footer a{
+  font-family: 'Playfair Display', serif;
   color: #263f22;
   text-decoration: none;
   margin-bottom: -2px;
